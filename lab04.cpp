@@ -78,7 +78,6 @@ int main(){
     cout<<"Closing \"output.txt\" file"<<endl;
     fout.close();
 
-       // MergeSort()
 
     cout<<"Re-opening \"output.txt\" file"<<endl;
     fin2.open("output.txt");
@@ -98,9 +97,12 @@ int main(){
     fin2.close();
     cout<<endl;
 
+    /*
     for(i=0;i<outputDistance.size();++i){
         cout<<outputDistance.at(i)<<endl;
     }
+     */
+
     cout<<endl;
     cout<<"Sorted calculated coordinates in ascending order: "<<endl;
     MergeSort(outputDistance, 0, outputDistance.size()-1);
