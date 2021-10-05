@@ -111,6 +111,7 @@ int main(){
     }
 
     cout<<"Opening \"output_sorted.txt\" file"<<endl;
+    cout<<endl;
 
     fout2.open("output_sorted.txt");
     if(!fout2.is_open()){
@@ -122,7 +123,7 @@ int main(){
     cout<<endl;
 
     for(i=0;i<outputDistance.size();++i){
-        cout<<outputDistance.at(i)<<endl;
+        //cout<<outputDistance.at(i)<<endl;
         fout2<<outputDistance.at(i)<<endl;
     }
 
