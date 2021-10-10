@@ -62,8 +62,10 @@ int main(){
         z1 = inputCoordinates.at(i + 4);
         z2 = inputCoordinates.at(i + 5);
 
-       // cout << x1 << " " << x2 << " " << y1 << " " << y2 << " " << z1 << " " << z2 << endl;
+        cout << x1 << " " << x2 << " " << y1 << " " << y2 << " " << z1 << " " << z2 << endl;
         coordinateDistance = calcDistance(x1, x2, y1, y2, z1, z2);
+        cout<<coordinateDistance<<endl;
+        fout<<coordinateDistance<<endl;
 
     }
 
@@ -89,6 +91,11 @@ int main(){
     fin2.close();
     cout<<endl;
 
+    /*
+    for(i=0;i<outputDistance.size();++i){
+        cout<<outputDistance.at(i)<<endl;
+    }
+     */
 
     cout<<endl;
     cout<<"Sorted calculated coordinates in ascending order: "<<endl;
@@ -110,6 +117,7 @@ int main(){
     cout<<endl;
 
     for(i=0;i<outputDistance.size();++i){
+        //cout<<outputDistance.at(i)<<endl;
         fout2<<outputDistance.at(i)<<endl;
     }
 
