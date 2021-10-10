@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sogent/CLionProjects/lab4-sogent/Lab04.cpp
+iostream
+-
+fstream
+-
+calc3DDistModule.h
+/Users/sogent/CLionProjects/lab4-sogent/calc3DDistModule.h
+mergeSortAlg.h
+/Users/sogent/CLionProjects/lab4-sogent/mergeSortAlg.h
+vector
+-
+
+/Users/sogent/CLionProjects/lab4-sogent/calc3DDistModule.h
+
+/Users/sogent/CLionProjects/lab4-sogent/mergeSortAlg.h
+vector
+-
+iostream
+-
+
